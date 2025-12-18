@@ -5,10 +5,16 @@ import Education from './components/Education/Education'
 import Experience from './components/Experience/Experience'
 import Navbar from './components/Navbar/Navbar'
 import Work from './components/Work/Work'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div></div>
+    <div className='bg-blue-800 min-h-screen'>
+      <div></div>
+      <div>
+        <Navbar/>
+      </div>
+    </div>
   )
 }
 
