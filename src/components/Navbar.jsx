@@ -1,46 +1,21 @@
-import React, { useState } from 'react'
-import {motion} from 'framer-motion'
-const Navbar = ({darkMode,toggleDarkMode}) => {
-  const [ActiveSection, setActiveSection] = useState("home")
-  const [MenuOpen, setMenuOpen] = useState(false)
-  const navItems = [
-    {name: 'About', link : '#about'},
-    {name: 'Skills', link : '#skills'},
-    {name: 'Home', link : '#home'},
-    {name: 'Projects', link : '#projects'},
-    {name: 'Contact', link : '#contact'}
-  ]
-  const lightColors = {
-    navBg: 'bg-linear-to-br from-orange-200 to-white',
-    textPrimary : 'text-gray-900',
-    textSecondary : 'text-gray-900',
-    textHover : 'text-orange-500',
-    textActive: 'text-orange-600',
-    indicator : 'from-orange-500 to-amber-500',
-    button : 'from-orange-500 to-amber-500'
-  }
-  const darkColors = {
-    navBg: 'bg-linear-to-br from-gray-700 to-black',
-    textPrimary : 'text-white',
-    textSecondary : 'text-gray-300',
-    textHover : 'text-orange-400',
-    textActive: 'text-orange-400',
-    indicator : 'from-orange-500 to-amber-500',
-    button : 'from-orange-500 to-amber-500'
-  }
-  const colors = darkMode ? darkColors : lightColors;
-
-  const handleNavClick = (itemName) =>{
-    setActiveSection(itemName.toLowerCase);
-    setIsMenuOpen(false);
-  }
+const Navbar = () => {
   return (
-    <div className='flex justify-center w-full z-50 mt-4'>
-    <motion.nav>
+    <nav className="fixed top-0 w-full bg-blue-950 text-white flex justify-between items-center px-10 py-5 z-50">
+      
     
-    </motion.nav>
-    </div>
-  )
-}
+      <h1 className="text-3xl font-bold">Muhammad Umair</h1>
 
-export default Navbar
+      
+      <ul className="flex gap-8 text-lg">
+        <li><a href="#home" className="hover:text-gray-300">Home</a></li>
+        <li><a href="#about" className="hover:text-gray-300">About</a></li>
+        <li><a href="#skills" className="hover:text-gray-300">Skills</a></li>
+        <li><a href="#projects" className="hover:text-gray-300">Projects</a></li>
+        <li><a href="#contact" className="hover:text-gray-300">Contact Me</a></li>
+      </ul>
+
+    </nav>
+  );
+};
+
+export default Navbar;
