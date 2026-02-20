@@ -2,9 +2,18 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="h-screen bg-blue-950 text-white flex justify-center items-center"
+      className="h-screen bg-gray-900 text-white flex justify-center items-center"
     >
-      <h1 className="text-4xl">This is Skills Page</h1>
+      <div>
+        <div>
+          
+        </div>
+        <div> </div>
+        <div> </div>
+      </div>
+      <div>
+
+      </div>
     </section>
   );
 };

@@ -1,16 +1,24 @@
+import { motion } from "framer-motion";
 const About = () => {
   return (
     <section
       id="about"
-      className="h-screen bg-blue-950 text-white flex justify-center items-center"
+      className="h-screen bg-gray-900 text-white flex justify-center items-center px-30"
     >
-      <div className="flex justify-between gap-20">
-        <div>
-          <h1 className="text-4xl">About Me</h1>
-          <p>I am Muhammad Umair, a passionate Full-Stack Developer specializing in the MERN stack. I build modern, scalable web applications and integrate AI-driven solutions to create intelligent, interactive user experiences. With a strong foundation in software engineering, I enjoy transforming complex problems into elegant, efficient code. My work focuses on combining the power of web development with cutting-edge AI technologies, including Agentic API integrations, to deliver smart and future-ready applications. I thrive in creative, challenging environments and am always eager to explore the latest innovations in technology.</p>
+      <div className="flex justify-between items-center gap-20">
+        <div className="flex flex-col justify-center items-center gap-8">
+          <h1 className="text-4xl font-bold text-gray-300">About <span className="text-orange-400">Me</span></h1>
+          <p className="w-150 text-lg text-justify text-gray-400">I am Muhammad Umair, a passionate Full-Stack Developer specializing in the MERN stack. I build modern, scalable web applications and integrate AI-driven solutions to create intelligent, interactive user experiences. With a strong foundation in software engineering, I enjoy transforming complex problems into elegant, efficient code. My work focuses on combining the power of web development with cutting-edge AI technologies, including Agentic API integrations, to deliver smart and future-ready applications. I thrive in creative, challenging environments and am always eager to explore the latest innovations in technology.</p>
         </div>
         <div>
-          <img className="h-100 w-100" src="/About me.png" alt="" />
+          <motion.img className="h-80 w-80 object-cover rounded-[50%] shadow-[0_0_25px_#f97316]" src="/Adobe Express - file.png" alt=""
+           animate={{ y: [0, -15, 0] }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+             />
         </div>
         
       </div>

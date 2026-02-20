@@ -3,7 +3,9 @@ const Navbar = () => {
     <nav className="fixed top-0 w-310 bg-gray-700 text-white flex justify-between items-center px-10 py-5 mt-2 opacity-90 rounded-4xl z-50 ml-2">
       
     
-      <h1 className="text-3xl font-bold">Muhammad Umair</h1>
+      <h1 className="text-3xl font-bold"> 
+       <span className="text-orange-400">&lt;</span>  Muhammad <span className="text-orange-400">/</span> Umair <span className="text-orange-400">&gt;</span>
+      </h1>
 
       
       <ul className="flex gap-8 text-lg font-bold">

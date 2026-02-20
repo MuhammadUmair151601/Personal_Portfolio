@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-screen bg-gray-900 text-white flex justify-center items-center pt-20"
+      className="h-screen bg-gray-900 text-white flex justify-center items-center pt-20 "
     >
       <div className="flex justify-between gap-30">
         <div className="mt-20">
@@ -28,7 +28,7 @@ const Home = () => {
 
           <button
             className="bg-orange-400 text-gray-800 font-bold text-lg  rounded-3xl px-4 py-1 mt-10 cursor-pointer transition-all duration-300 
-            hover:scale-105 "
+            hover:scale-105 hover:text-white hover:shadow-[0_0_25px_#f97316]"
           >
             Download Resume
           </button>
