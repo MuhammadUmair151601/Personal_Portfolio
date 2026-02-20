@@ -7,7 +7,7 @@ import { FaTools } from "react-icons/fa";
 const Skills = () => {
   return (
     <div id="skills" className="h-screen bg-gray-900 text-white flex pt-40">
-      <div className="absolute left-140 top-315 text-4xl font-bold">
+      <div className="absolute left-140 top-315 text-4xl font-bold text-gray-300">
         My <span className="text-orange-400">Skills</span>
       </div>
       <div className="flex gap-4 w-140 h-100 flex-wrap border-r border-[#f97316] ml-30 ">
@@ -72,7 +72,9 @@ const Skills = () => {
             designs.
           </p>
         </div>
+        
       </div>
+      
     </div>
   );
 };
