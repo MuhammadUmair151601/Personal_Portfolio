@@ -7,8 +7,31 @@ import {
   Linkedin,
   Facebook,
 } from "lucide-react";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_0s11x4g",
+        "template_egl8pfc",
+        form.current,
+        "mOnSDVPU5CJMzLmfi",
+      )
+      .then(() => {
+        alert("Message sent successfully!");
+      })
+      .catch(() => {
+        alert("Failed to send message.");
+      });
+
+    e.target.reset();
+  };
   return (
     <section
       id="contact"
@@ -24,12 +47,36 @@ const Contact = () => {
       </div>
       <div className="flex w-full h-110">
         <div className="w-1/2 h-120">
-        <form className="flex flex-col gap-4 items-center justify-between" action="">
-          <input className="py-4 rounded-[5px] p-2 w-105 outline-none bg-gray-700" type="text" placeholder="Your name" />
-          <input className="py-4 rounded-[5px] p-2 w-105 outline-none bg-gray-700" type="text" placeholder="Email/Phone" />
-          <textarea  className="py-4 rounded-[5px] p-2 w-105 outline-none bg-gray-700" name="" id="" placeholder="Your message detail"></textarea>
-          <button className=" w-105 border-none bg-orange-400 text-xl font-bold rounded-[5px] py-4 hover:scale-105 hover:shadow-[0_0_25px_#f97316] cursor-pointer duration-300 text-black hover:text-white" type="submit ">Send Message</button>
-        </form>
+          <form
+            onSubmit={sendEmail}
+            className="flex flex-col gap-4 items-center justify-between"
+            action=""
+          >
+            <input
+              className="py-4 rounded-[5px] p-2 w-105 outline-none bg-gray-700"
+              name="user_name"
+              type="text"
+              placeholder="Your name"
+            />
+            <input
+              className="py-4 rounded-[5px] p-2 w-105 outline-none bg-gray-700"
+              type="text"
+              placeholder="Email/Phone"
+              name="user_email"
+            />
+            <textarea
+              className="py-4 rounded-[5px] p-2 w-105 outline-none bg-gray-700"
+              name=""
+              id=""
+              placeholder="Your message detail"
+            ></textarea>
+            <button
+              className=" w-105 border-none bg-orange-400 text-xl font-bold rounded-[5px] py-4 hover:scale-105 hover:shadow-[0_0_25px_#f97316] cursor-pointer duration-300 text-black hover:text-white"
+              type="submit "
+            >
+              Send Message
+            </button>
+          </form>
         </div>
         <div className=" w-1/2 ">
           <div className="w-full h-1/6 p-10">
@@ -68,7 +115,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/muhammad-umair-a7b10a2b2/"
                 target="_blank"
                 rel="noopener noreferrer"
-               className="transition hover:text-black hover:bg-orange-400 rounded-[50%] h-10 w-10 flex items-center justify-center shadow-[0_0_25px_#f97316] duration-300"
+                className="transition hover:text-black hover:bg-orange-400 rounded-[50%] h-10 w-10 flex items-center justify-center shadow-[0_0_25px_#f97316] duration-300"
               >
                 <Linkedin size={30} />
               </a>
@@ -84,11 +131,12 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        
       </div>
       <div className="w-full bg-gray-800  py-5">
-        <h1 className="ml-110">© 2025 Created By MuhammadUmairCodes. All rights reserved.</h1>
-        </div>
+        <h1 className="ml-110">
+          © 2025 Created By MuhammadUmairCodes. All rights reserved.
+        </h1>
+      </div>
     </section>
   );
 };

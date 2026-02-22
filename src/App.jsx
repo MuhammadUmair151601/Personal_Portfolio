@@ -6,13 +6,14 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 function App() {
+  
   return (
     <div className="scroll-smooth">
       <Navbar />
       <Home />
       <About />
       <Skills />
-      <Projects />
+      <Projects/>
       <Contact />
     </div>
   );

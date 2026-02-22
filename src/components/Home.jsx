@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Typewriter } from 'react-simple-typewriter';
+import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
@@ -14,10 +14,14 @@ const Home = () => {
             Developer <br />
             Crafting AI-Powered Applications.
           </h1>
-           <h2 className="text-3xl font-semibold mt-5 text-orange-400">
+          <h2 className="text-3xl font-semibold mt-5 text-orange-400">
             <Typewriter
-              words={['MERN Stack Developer', 'AI-Powered Engineer', 'Agentic Web Integrator']}
-              loop={0} 
+              words={[
+                "MERN Stack Developer",
+                "AI-Powered Engineer",
+                "Agentic Web Integrator",
+              ]}
+              loop={0}
               cursor
               cursorStyle="|"
               typeSpeed={40}
@@ -25,13 +29,17 @@ const Home = () => {
               delaySpeed={1000}
             />
           </h2>
-
-          <button
-            className="bg-orange-400 text-gray-800 font-bold text-lg  rounded-3xl px-4 py-2 mt-10 cursor-pointer transition-all duration-300 
+          <div className="flex items-center justify-between">
+            <a
+            className="bg-orange-400 text-gray-800 font-bold text-lg  rounded-3xl px-4 py-2 mt-20 cursor-pointer transition-all duration-300 
             hover:scale-105 hover:text-white hover:shadow-[0_0_25px_#f97316]"
+            href="/M.umair.pdf"
+            download="M.umair.pdf"
           >
             Download Resume
-          </button>
+          </a>
+          </div>
+          
         </div>
         <div>
           <motion.img

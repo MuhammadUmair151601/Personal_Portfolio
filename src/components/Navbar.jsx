@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-310 bg-gray-700 text-white flex justify-between items-center px-10 py-2 mt-2 opacity-90 rounded-4xl z-50 ml-2">
+    <nav className="fixed top-0 w-310 bg-gradient-to-r from-gray-700 to-orange-500 text-white flex justify-between items-center px-10 py-2 mt-2 opacity-90 rounded-4xl z-50 ml-2">
       
     
       <h1 className="text-3xl font-bold"> 

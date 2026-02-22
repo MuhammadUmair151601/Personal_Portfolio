@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div id="skills" className="h-screen bg-gray-900 text-white flex pt-40">
       <div className="absolute left-140 top-315 text-4xl font-bold text-gray-300">
-        My <span className="text-orange-400">Skills</span>
+        MY <span className="text-orange-400">SKILLS</span>
       </div>
       <div className="flex gap-4 w-140 h-100 flex-wrap border-r border-[#f97316] ml-30 ">
         <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl h-50 w-50 flex flex-col justify-between items-center p-4 text-sm">
@@ -21,18 +21,16 @@ const Skills = () => {
         </div>
         <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl h-50 w-50 flex flex-col justify-between items-center p-4 text-sm">
           <Lightbulb size={40} color="orange" strokeWidth={3} />
-          <h1 className="font-bold text-gray-300 text-xl">Design oriented</h1>
+          <h1 className="font-bold text-gray-300 text-xl">New Ideas</h1>
           <p className="leading-tight text-gray-300 text-justify">
-            Beautiful design and user experience are at the heart of everything
-            i create.
+            Always focused to create new ideas into responsive web designs.
           </p>
         </div>
         <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl h-50 w-50 flex flex-col justify-between items-center p-4 text-sm">
           <CodeXml color="orange" strokeWidth={3} size={40} />
-          <h1 className="font-bold text-gray-300 text-xl">Design oriented</h1>
+          <h1 className="font-bold text-gray-300 text-xl">Clean Code</h1>
           <p className="leading-tight text-gray-300 text-justify">
-            Beautiful design and user experience are at the heart of everything
-            i create.
+            Prefer clean and understandable coding so that it can improve teamwork.
           </p>
         </div>
       </div>

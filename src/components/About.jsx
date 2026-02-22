@@ -7,7 +7,7 @@ const About = () => {
     >
       <div className="flex justify-between items-center gap-20">
         <div className="flex flex-col justify-center items-center gap-8">
-          <h1 className="text-4xl font-bold text-gray-300">About <span className="text-orange-400">Me</span></h1>
+          <h1 className="text-4xl font-bold text-gray-300">ABOUT <span className="text-orange-400">ME</span></h1>
           <p className="w-150 text-lg text-justify text-gray-400">I am Muhammad Umair, a passionate Full-Stack Developer specializing in the MERN stack. I build modern, scalable web applications and integrate AI-driven solutions to create intelligent, interactive user experiences. With a strong foundation in software engineering, I enjoy transforming complex problems into elegant, efficient code. My work focuses on combining the power of web development with cutting-edge AI technologies, including Agentic API integrations, to deliver smart and future-ready applications. I thrive in creative, challenging environments and am always eager to explore the latest innovations in technology.</p>
         </div>
         <div>
