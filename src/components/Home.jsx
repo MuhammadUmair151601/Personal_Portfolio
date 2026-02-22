@@ -3,7 +3,13 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0.4, y: 60 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ 
+        duration: 1.1,
+        ease: [0.22, 1, 0.36, 1]   // smooth cinematic ease
+      }}
       id="home"
       className="h-screen bg-gray-900 text-white flex justify-center items-center pt-20 "
     >
@@ -55,7 +61,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

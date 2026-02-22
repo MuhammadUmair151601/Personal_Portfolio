@@ -12,10 +12,10 @@ const Card = ({ name, paragraph, demo, code, image }) => {
           <p className="text-justify px-3">{paragraph}</p>
         </div>
         <div className="flex items-center gap-7 p-5">
-          <button className="bg-orange-400 rounded-[5px] w-25 font-bold hover:text-black hover:scale-105 duration-300 cursor-pointer py-1">
+          <button className="hover:shadow-[0_0_25px_#f97316] bg-orange-400 rounded-[5px] w-25 font-bold hover:text-black hover:scale-105 duration-300 cursor-pointer py-1">
             {demo}
           </button>
-          <button className="bg-orange-400 rounded-[5px] w-25 font-bold hover:text-black hover:scale-105 duration-300 cursor-pointer py-1">
+          <button className="hover:shadow-[0_0_25px_#f97316] bg-orange-400 rounded-[5px] w-25 font-bold hover:text-black hover:scale-105 duration-300 cursor-pointer py-1">
             {code}
           </button>
         </div>

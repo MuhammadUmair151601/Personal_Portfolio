@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0.4, y: 60 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ 
+        duration: 1.1,
+        ease: [0.22, 1, 0.36, 1]   // smooth cinematic ease
+      }}
       id="about"
       className="h-screen bg-gray-900 text-white flex justify-center items-center px-30"
     >
@@ -24,7 +30,7 @@ const About = () => {
       </div>
 
       
-    </section>
+    </motion.section>
   );
 };
 
