@@ -4,58 +4,56 @@ import Card from "./Card";
 const Projects = () => {
   const data = [
     {
-      image: "/Task manager.png",
+      image: "/Screenshot 2026-02-25 000603.png",
       name: "Task Manager",
       paragraph: "A simple React task manager to manage daily tasks.",
-      demo: "Demo",
-      code: "View Code",
+      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
     },
     {
       image: "/Task manager.png",
       name: "Task Manager",
       paragraph: "A simple React task manager to manage daily tasks.",
-      demo: "Demo",
-      code: "View Code",
+      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
     },
     {
       image: "/Task manager.png",
       name: "Task Manager",
       paragraph: "A simple React task manager to manage daily tasks.",
-      demo: "Demo",
-      code: "View Code",
+      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
     },
     {
       image: "/Task manager.png",
       name: "Task Manager",
       paragraph: "A simple React task manager to manage daily tasks.",
-      demo: "Demo",
-      code: "View Code",
+      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
     },
     {
       image: "/Task manager.png",
       name: "Task Manager",
       paragraph: "A simple React task manager to manage daily tasks.",
-      demo: "Demo",
-      code: "View Code",
+      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
     },
     {
       image: "/Task manager.png",
       name: "Task Manager",
       paragraph: "A simple React task manager to manage daily tasks.",
-      demo: "Demo",
-      code: "View Code",
+      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
     },
   ];
 
   return (
     <div id="projects" className="min-h-screen bg-gray-900 text-gray-300 py-20">
 
-      {/* Heading */}
+ 
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-orange-400">PROJECTS</h1>
       </div>
-
-      {/* Cards Grid */}
       <div className="flex flex-wrap justify-center gap-10 px-10">
         {data.map((elem, idx) => (
           <Card
@@ -63,8 +61,8 @@ const Projects = () => {
             image={elem.image}
             name={elem.name}
             paragraph={elem.paragraph}
-            demo={elem.demo}
-            code={elem.code}
+            Demo_link={elem.Demo_link}
+            Code_link={elem.Code_link}
           />
         ))}
       </div>

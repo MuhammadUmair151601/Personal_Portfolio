@@ -9,14 +9,13 @@ const Skills = () => {
       id="skills"
       className="min-h-screen bg-gray-900 text-white flex flex-col items-center py-20 px-4 md:px-20"
     >
-      {/* Section Title */}
+    
       <h1 className="text-3xl sm:text-4xl font-bold text-gray-300 mb-12">
         MY <span className="text-orange-400">SKILLS</span>
       </h1>
 
-      {/* Skill Cards Container */}
       <div className="flex flex-col sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl">
-        {/* Design Oriented */}
+       
         <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl p-6 flex flex-col justify-between items-center text-center">
           <Brush size={40} color="orange" strokeWidth={3} />
           <h1 className="font-bold text-gray-300 text-xl mt-2">
@@ -27,8 +26,6 @@ const Skills = () => {
             I create.
           </p>
         </div>
-
-        {/* New Ideas */}
         <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl p-6 flex flex-col justify-between items-center text-center">
           <Lightbulb size={40} color="orange" strokeWidth={3} />
           <h1 className="font-bold text-gray-300 text-xl mt-2">New Ideas</h1>
@@ -37,7 +34,7 @@ const Skills = () => {
           </p>
         </div>
 
-        {/* Clean Code */}
+
         <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl p-6 flex flex-col justify-between items-center text-center">
           <CodeXml color="orange" strokeWidth={3} size={40} />
           <h1 className="font-bold text-gray-300 text-xl mt-2">Clean Code</h1>
@@ -55,8 +52,6 @@ const Skills = () => {
             <FaNodeJs size={40} className="text-green-500" />
           </div>
         </div>
-
-        {/* FrontEnd Tech */}
         <div className="flex flex-col lg:flex-row gap-7">
           <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl p-6 flex flex-col justify-between items-center text-center">
             <FaReact className="text-cyan-400" size={50} />
@@ -68,8 +63,6 @@ const Skills = () => {
               designs.
             </p>
           </div>
-
-          {/* BackEnd Tech */}
           <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl p-6 flex flex-col justify-between items-center text-center">
             <FaServer className="text-blue-600" size={50} />
             <h1 className="text-lg font-bold text-gray-300 mt-2">
@@ -80,8 +73,6 @@ const Skills = () => {
               applications.
             </p>
           </div>
-
-          {/* Database Tech */}
           <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl p-6 flex flex-col justify-between items-center text-center">
             <SiMongodb className="text-green-500" size={40} />
             <h1 className="text-lg font-bold text-gray-300 mt-2">
@@ -91,8 +82,6 @@ const Skills = () => {
               Using MongoDB to manage data efficiently and reliably.
             </p>
           </div>
-
-          {/* Tools */}
           <div className="hover:bg-gray-600 transition-all duration-300 hover:scale-105 cursor-pointer bg-gray-800 rounded-2xl p-6 flex flex-col justify-between items-center text-center">
             <FaTools className="text-purple-500" size={40} />
             <h1 className="text-lg font-bold text-gray-300 mt-2">Tools</h1>

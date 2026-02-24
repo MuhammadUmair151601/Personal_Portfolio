@@ -8,13 +8,13 @@ const Home = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ 
         duration: 1.1,
-        ease: [0.22, 1, 0.36, 1] // smooth cinematic ease
+        ease: [0.22, 1, 0.36, 1] 
       }}
       id="home"
       className="min-h-screen bg-gray-900 text-white flex justify-center items-center pt-60 md:pt-20 px-4"
     >
       <div className="flex flex-col md:flex-row justify-between items-center md:gap-30 gap-10 w-full max-w-6xl">
-        {/* Text Section */}
+      
         <div className="mt-10 md:mt-20 text-center md:text-left">
           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold leading-normal text-gray-300">
             Hi, I am Muhammad Umair, a Software Engineer. <br /> Full-Stack MERN
@@ -47,8 +47,6 @@ const Home = () => {
             </a>
           </div>
         </div>
-
-        {/* Image Section */}
         <div className="mt-10 md:mt-0">
           <motion.img
             className="w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 object-cover rounded-full shadow-[0_0_25px_#f97316]"
