@@ -7,7 +7,6 @@ const Navbar = () => {
        <span className="text-orange-400">&lt;</span>  Muhammad <span className="text-orange-400">/</span> Umair <span className="text-orange-400">&gt;</span>
       </h1>
 
-      
       <ul className="links flex gap-8 text-lg font-bold">
         <li><a href="#home" className="hover:text-orange-400 duration-300">Home</a></li>
         <li><a href="#about" className="hover:text-orange-400 duration-300">About</a></li>

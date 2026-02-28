@@ -11,7 +11,7 @@ const Home = () => {
         ease: [0.22, 1, 0.36, 1] 
       }}
       id="home"
-      className="min-h-screen bg-gray-900 text-white flex justify-center items-center pt-60 md:pt-20 px-4"
+      className="min-h-screen bg-gray-900 text-white flex justify-center items-center pt-20 px-4"
     >
       <div className="flex flex-col md:flex-row justify-between items-center md:gap-30 gap-10 w-full max-w-6xl">
       

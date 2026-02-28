@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ name, paragraph, Demo_link, Code_link, image }) => {
   return (
     <div>
-      <div className="flex flex-col justify-between items-center h-100 w-70 ml-10 mt-5 rounded-2xl bg-gray-800 hover:bg-gray-700 hover:scale-105 duration-300">
+      <div className="flex flex-col justify-between items-center h-100 w-70  mt-5 rounded-2xl bg-gray-800 hover:bg-gray-700 hover:scale-105 duration-300">
         <div className="w-full h-40 object-cover">
           <img className="rounded-2xl w-full h-50 object-cover" src={image} alt="" />
         </div>

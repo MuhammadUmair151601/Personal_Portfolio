@@ -12,14 +12,12 @@ html {
     .name{
       font-size: 25px;
       margin-bottom: 5px;
+      margin-bottom: 10px;
     }
     .links{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       gap: 15px;
     }
-    .home{
-      display: flex !important;
-      flex-direction: column !important;
-    }
+   
 }
