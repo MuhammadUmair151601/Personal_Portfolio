@@ -7,7 +7,8 @@ html {
     .navbar{
       display: flex;
       flex-direction: column;
-      width: 470px;
+      width: 380px;
+      margin-left: 1px;
     }
     .name{
       font-size: 25px;
@@ -17,7 +18,7 @@ html {
     .links{
       display: flex;
       flex-direction: row;
-      gap: 15px;
+      gap: 10px;
     }
    
 }
