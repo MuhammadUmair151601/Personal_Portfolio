@@ -40,8 +40,8 @@ const Home = () => {
             <a
               className="bg-orange-400 text-gray-800 font-bold text-lg rounded-3xl px-4 py-2 mt-10 cursor-pointer transition-all duration-300 
               hover:scale-105 hover:text-white hover:shadow-[0_0_25px_#f97316]"
-              href="/M.umair.pdf"
-              download="M.umair.pdf"
+              href="/My_Resume.pdf"
+              download="My_Resume.pdf"
             >
               Download Resume
             </a>

@@ -11,11 +11,11 @@ const Projects = () => {
       Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
     },
     {
-      image: "/Task manager.png",
-      name: "Task Manager",
-      paragraph: "A simple React task manager to manage daily tasks.",
-      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
-      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
+      image: "/Recipe.png",
+      name: "Recipe Provider",
+      paragraph: "Search for desired dish and get the recipe in detail",
+      Demo_link: "https://react-recipe-app-git-main-mumairs-projects-75dd5089.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/react_recipe_App.git"
     },
     {
       image: "/Task manager.png",
