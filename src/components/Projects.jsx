@@ -37,14 +37,7 @@ const Projects = () => {
       paragraph: "A simple react BMI calculator according to weight and height",
       Demo_link: "https://bmi-calculator-react-c3ng.vercel.app/",
       Code_link: "https://github.com/MuhammadUmair151601/BMI_calculator_react.git"
-    },
-    {
-      image: "/Task manager.png",
-      name: "Task Manager",
-      paragraph: "A simple React task manager to manage daily tasks.",
-      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
-      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
-    },
+    }
   ];
 
   return (
