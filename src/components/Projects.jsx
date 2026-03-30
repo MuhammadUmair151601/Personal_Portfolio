@@ -18,25 +18,25 @@ const Projects = () => {
       Code_link: "https://github.com/MuhammadUmair151601/react_recipe_App.git"
     },
     {
-      image: "/Task manager.png",
-      name: "Task Manager",
-      paragraph: "A simple React task manager to manage daily tasks.",
-      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
-      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
+      image: "/Calculator.png",
+      name: "React Calculator",
+      paragraph: "A simple react daily use calculator",
+      Demo_link: "https://react-calculator-tau-green.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/React_Calculator.git"
     },
     {
-      image: "/Task manager.png",
-      name: "Task Manager",
-      paragraph: "A simple React task manager to manage daily tasks.",
-      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
-      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
+      image: "/FYP (1).png",
+      name: "JobGenie",
+      paragraph: "JobGenie an AI powered career assistant.",
+      Demo_link: "http://job-genie-final.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/JobGenie_Final.git"
     },
     {
-      image: "/Task manager.png",
-      name: "Task Manager",
-      paragraph: "A simple React task manager to manage daily tasks.",
-      Demo_link: "https://todo-app-react-iota-wheat.vercel.app/",
-      Code_link: "https://github.com/MuhammadUmair151601/Todo_App_react.git"
+      image: "/BMI.png",
+      name: "BMI calculatro",
+      paragraph: "A simple react BMI calculator according to weight and height",
+      Demo_link: "https://bmi-calculator-react-c3ng.vercel.app/",
+      Code_link: "https://github.com/MuhammadUmair151601/BMI_calculator_react.git"
     },
     {
       image: "/Task manager.png",
